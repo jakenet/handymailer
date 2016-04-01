@@ -19,15 +19,7 @@ $mailprog='/usr/lib/sendmail';
 				"oisi\@worldnet.att.net");
 
 # holds the addresses to be blocked in the from field
-@illegalfrom = ("jake\@jake.net",
-				"jacobp\@wharton.upenn.edu",
-				"jacobp\@seas.upenn.edu",
-				"jakep\@tiac.net",
-				"webmaster\@jake.net",
-				"lpeters\@shore.net",
-				"jakep93\@hotmail.com".
-				"caren\@jake.net",
-				"jrpeters\@shore.net");
+@illegalfrom = ("youraddress@blah.com");
 
 # reads in the content length ENV var and puts values into associative array
 &process_post_cgi_info;
